@@ -1,0 +1,17 @@
+#Simple AI Chat bot
+
+print("Hey Boss, Welcome! I'm your simple chatbot.")
+print("To start the game, enter 'Hello' and to end the game, enter 'Bye'.")
+
+while True:
+    user_input = input("You: ").lower()
+
+    if user_input == "hello":
+        print("Chatbot: Hello!.")
+    elif user_input == "how are you":
+        print("Chatbot: I'm fine, thanks!")
+    elif user_input == "bye":
+        print("Chatbot: Goodbye! Have a great day!")
+        exit()
+    else:
+        print("Chatbot: I cant understand that.")
